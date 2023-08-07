@@ -1,0 +1,27 @@
+{
+  "name": "our-solar-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A website showing information about our solar system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingLady22/our-solar-system.git"
+  },
+  "author": "Maye Jesuorobo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingLady22/our-solar-system/issues"
+  },
+  "homepage": "https://github.com/CodingLady22/our-solar-system#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2"
+  }
+}
