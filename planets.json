@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Mercury",
+    "size": 3032,
+    "distanceFromSun": 28697,
+    "facts": [
+      "Mercury is the fastest planet in our solar system",
+      "Mercury is the smallest planet in our solar system.",
+      "Mercury has a crater named after Dr. Suess.",
+      "It is the second hottest planet in the Solar System.",
+      "Mercury is a Rocky Planet.",
+      "Humans can't breathe on Mercury.",
+      "Mercury doesn't really have an atmosphere."
+    ],
+    "State": "Solid"
+  },
+  {
+    "name": "Venus",
+    "size": 7520,
+    "distanceFromSun": 66841,
+    "facts": [
+      "A day on Venus is longer than a year.",
+      "Venus is the hottest planet in our solar system.",
+      "Venus is hotter than Mercury, despite being further away from the Sun.",
+      "Venus is the second brightest natural object in the night sky after the Moon.",
+      "Venus has two sunrises in a year."
+    ],
+    "State": "Solid"
+  },
+  {
+    "name": "Earth",
+    "size": 7917,
+    "distanceFromSun": 92822,
+    "facts": [
+      "Earth is the 3rd closest planet to The Sun",
+      "It is the only planet we have found that contains life.",
+      "HEarth is 4.543 billion years old.",
+      "Earth's atmosphere is made of gases.",
+      "Earth isn't perpectly round, is mostly iron and oxygen."
+    ],
+    "State": "Solid"
+  },
+  {
+    "name": "Mars",
+    "size": 4212,
+    "distanceFromSun": 155,
+    "facts": [
+      "Mars is the 4th planet away from the sun.",
+      "Mars is also known as the Red Planet, It may look warm but it's very cold.",
+      "Mars is named after the Roman god of war.",
+      "Mars has 2 moons called Deimos and Phobos.",
+      "Mars has a lot of rocks and is full of iron."
+    ],
+    "State": "Solid"
+  },
+  {
+    "name": "Jupiter",
+    "size": 86881,
+    "distanceFromSun": 461,
+    "facts": [
+      "Jupiter is the 5th planet away from The Sun.",
+      "Jupiter has 80 moons, and is the biggest planet in our Solar System.",
+      "Jupiter has the shortest day of all planets.",
+      "Jupiter has rings.",
+      "Jupiter is a Gas Giant."
+    ],
+    "State": "Gas"
+  },
+  {
+    "name": "Saturn",
+    "size": 178272367,
+    "distanceFromSun": 911,
+    "facts": [
+      "Saturn is the 6th planet away from the Sun.",
+      "Saturn's volume is greater than 760 Earths, and it is the second most massive planet in the solar system.",
+      "Saturn has huge rings,but thin.",
+      "Humans can't stand on Saturn, because it's is not solid.",
+      "Humans can see Saturn through a telescope."
+    ],
+    "State": "Gas"
+  },
+  {
+    "name": "Uranus",
+    "size": 31518,
+    "distanceFromSun": 18265,
+    "facts": [
+      "Uranus is the 7th planet away from the Sun.",
+      "Uranus is the first planet to be discovered through a telescope.",
+      "Uranus has 13 rings.",
+      "Uranus has 27 moons.",
+      "Uranus is the coldest planet in the Solar System."
+    ],
+    "State": "Gas"
+  },
+  {
+    "name": "Neptune",
+    "size": 30559,
+    "distanceFromSun": 27796,
+    "facts": [
+      "Neptune is the 8th planet away from the Sun.",
+      "Neptune is about four times wider than Earth.",
+      "Neptune is a ice giant Planet",
+      "Neptune is the final planet in the Solar System.",
+      "A year on Neptune is equivalent to 164.81 Earth Years."
+    ],
+    "State": "Gas"
+  }
+]
