@@ -5,7 +5,7 @@
   "description": "A website showing information about our solar system",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -23,5 +23,8 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
