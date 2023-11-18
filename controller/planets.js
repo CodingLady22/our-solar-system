@@ -2,7 +2,7 @@ import Planets from "../models/Planet.js";
 import Moons from "../models/Moon.js";
 
 //* GET: getting the planet info
-export const getPlanets = async (req, res) => {
+const getPlanets = async (req, res) => {
     try {
         const planets = await Planets.find();
         res.status(200).json(planets);
@@ -12,7 +12,7 @@ export const getPlanets = async (req, res) => {
 };
 
 //* GET: getting the moon info
-export const getMoons = async (req, res) => {
+const getMoons = async (req, res) => {
     try {
         const moons = await Moons.find();
         res.status(200).json(moons);
@@ -20,3 +20,8 @@ export const getMoons = async (req, res) => {
         res.status(404).json({ message: err.message });
     }
 };
+
+export {
+    getPlanets,
+    getMoons
+}
