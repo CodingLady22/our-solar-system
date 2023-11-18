@@ -1,6 +1,6 @@
-import { Router } from "express";
-const router = Router();
-import { getPlanets, getMoons } from "../controllers/planets.js";
+import express from "express";
+const router = express.Router();
+import { getPlanets, getMoons } from "../controller/planets.js";
 
 // * Handles GET request from the homepage
 router.get("/", getPlanets); // read
