@@ -1,10 +1,10 @@
 import dotenv from "dotenv";
 
-import connectDB from './server-side/config/database.js';
-import Planets from './server-side/models/Planet.js';
-import Moons from './server-side/models/Moon.js';
+import connectDB from './config/database.js';
+import Planets from './models/Planet.js';
+import Moons from './models/Moon.js';
 
-dotenv.config();
+dotenv.config({ path: './config/.env' });
 
 import jsonPlanets from './planets.json' assert {type: 'json'}
 import jsonMoons from './moons.json' assert {type: 'json'}
