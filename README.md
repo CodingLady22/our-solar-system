@@ -31,6 +31,8 @@ To get started with the "Our Solar System" back-end app, follow these steps:
    ```
    npm start
    ```
+** You will need to create a .env file in the config folder to store your PORT and DB_STRING 
+
 The server will be running at http://localhost:5500.
 
 ### Usage
@@ -38,7 +40,7 @@ The server will be running at http://localhost:5500.
 The app provides API endpoints to access information about planets and their moons. You can make HTTP requests to these endpoints to retrieve data in JSON format.
 
 ### API Endpoints
-* `planets.json`: Contains information about each planet in our solar system.
+* `planets.json`: Contains information about each planet in our solar system with a reference to their respective moons.
 * `moons.json`: Contains information about the moons orbiting each planet.
 
 Feel free to expand the data or modify it to include additional information as needed.
