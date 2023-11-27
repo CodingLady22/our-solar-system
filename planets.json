@@ -32,9 +32,9 @@
     "size": 7917,
     "distanceFromSun": 92822,
     "facts": [
-      "Earth is the 3rd closest planet to The Sun",
+      "Earth is the third closest planet to The Sun.",
       "It is the only planet we have found that contains life.",
-      "HEarth is 4.543 billion years old.",
+      "Earth is 4.543 billion years old.",
       "Earth's atmosphere is made of gases.",
       "Earth isn't perpectly round, is mostly iron and oxygen."
     ],
@@ -45,10 +45,10 @@
     "size": 4212,
     "distanceFromSun": 155,
     "facts": [
-      "Mars is the 4th planet away from the sun.",
+      "Mars is the fourth planet away from the sun.",
       "Mars is also known as the Red Planet, It may look warm but it's very cold.",
       "Mars is named after the Roman god of war.",
-      "Mars has 2 moons called Deimos and Phobos.",
+      "Mars has two moons called Deimos and Phobos.",
       "Mars has a lot of rocks and is full of iron."
     ],
     "State": "Solid"
@@ -58,7 +58,7 @@
     "size": 86881,
     "distanceFromSun": 461,
     "facts": [
-      "Jupiter is the 5th planet away from The Sun.",
+      "Jupiter is the fifth planet away from The Sun.",
       "Jupiter has 80 moons, and is the biggest planet in our Solar System.",
       "Jupiter has the shortest day of all planets.",
       "Jupiter has rings.",
@@ -71,10 +71,10 @@
     "size": 178272367,
     "distanceFromSun": 911,
     "facts": [
-      "Saturn is the 6th planet away from the Sun.",
+      "Saturn is the sixth planet away from the Sun.",
       "Saturn's volume is greater than 760 Earths, and it is the second most massive planet in the solar system.",
       "Saturn has huge rings,but thin.",
-      "Humans can't stand on Saturn, because it's is not solid.",
+      "Humans can't stand on Saturn, because it's not solid.",
       "Humans can see Saturn through a telescope."
     ],
     "State": "Gas"
@@ -84,7 +84,7 @@
     "size": 31518,
     "distanceFromSun": 18265,
     "facts": [
-      "Uranus is the 7th planet away from the Sun.",
+      "Uranus is the seventh planet away from the Sun.",
       "Uranus is the first planet to be discovered through a telescope.",
       "Uranus has 13 rings.",
       "Uranus has 27 moons.",
@@ -97,7 +97,7 @@
     "size": 30559,
     "distanceFromSun": 27796,
     "facts": [
-      "Neptune is the 8th planet away from the Sun.",
+      "Neptune is the eighth planet away from the Sun.",
       "Neptune is about four times wider than Earth.",
       "Neptune is a ice giant Planet",
       "Neptune is the final planet in the Solar System.",
