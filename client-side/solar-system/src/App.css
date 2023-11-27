@@ -1,6 +1,6 @@
-body {
+/* body {
   background: #121215;
-}
+} */
 
 /************************************************************************
 Main body
@@ -9,6 +9,23 @@ Main body
 .header {
   font-size: 8rem;
   text-align: center;
+}
+
+.planet {
+  display: flex;
+}
+
+.planetCard {
+  border: 2px green solid;
+  border-radius: 10px;
+}
+
+
+.moon {
+  background: radial-gradient(circle at 1rem 2rem, hsl(20, 55%, 50%) 0%, hsl(0, 0%, 10%) 95%);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
 
