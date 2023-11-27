@@ -4,7 +4,7 @@ import Moons from "../models/Moon.js";
 //* GET: getting the planet info
 const getPlanets = async (req, res) => {
     try {
-        const planets = await Planets.find();
+        const planets = await Planets.find().populate("moons");
         res.status(200).json(planets);
     } catch (err) {
         res.status(404).json({ message: err.message });
