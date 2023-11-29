@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../App.css"
-import "./uranus.css"
+import "./planets.css"
 
 function Uranus() {
   return (

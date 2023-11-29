@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from './components/home/Main'
-import Earth2 from './Earth2';
+import PlanetDetails from './components/PlanetDetails';
 import './App.css'
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Main />} />
-          <Route path='/earth/3' element={<Earth2 />} />
+          <Route path='/planet/:planetId' element={<PlanetDetails />} />
         </Routes>
       </BrowserRouter>
     </>

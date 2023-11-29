@@ -1,35 +1,21 @@
-import { useState, useEffect } from 'react';
+import {  useEffect } from 'react';
 import PlanetCard from '../PlanetCard'
-// import planets from "../../../../../planets.json"
-// import "../="
-import "./App.css"
-import axios from 'axios';
+import planetDataApi from '../../planetDataApi';
+import "../../App.css"
 
 function Earth2() {
 
-  const [planetInfo, setPlanetInfo] = useState(null)
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get('http://localhost:5500/')
-        setPlanetInfo(response.data)
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
-
-    fetchData()
-  }, [])
-
+  const planetInfo = planetDataApi();
 
   return (
     // <div className='planet' id='earth2'>
-    <div>
+    <div className='earth2'>
         {planetInfo && <PlanetCard 
         name={planetInfo[2].name}
         size={planetInfo[2].size}
         distance={planetInfo[2].distanceFromSun}
+        facts={planetInfo[2].facts}
+        moons={planetInfo[2].moons}
         />}
     </div>
   )

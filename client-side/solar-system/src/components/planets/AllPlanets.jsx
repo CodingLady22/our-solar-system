@@ -1,7 +1,4 @@
-import { useState } from 'react'
 import { useNavigate } from "react-router-dom";
-// import "../../../index.css";
-import PlanetCard from '../PlanetCard';
 import Mercury from "./Mercury";
 import Venus from "./Venus";
 import Earth from "./Earth";
@@ -17,54 +14,37 @@ function AllPlanets() {
 
     const navigate = useNavigate();
 
-  const handleClick = async planet => {
-    let postId;
 
-    if (planet === "mercury") {
-      postId = 1;
-    } else if (planet === "venus") {
-      postId = 2;
-    } else if (planet === "earth") {
-      postId = 3;
-    } else if (planet === "mars") {
-      postId = 4;
-    } else if (planet === "jupiter") {
-      postId = 5;
-    } else if (planet === "saturn") {
-      postId = 6;
-    } else if (planet === "uranus") {
-      postId = 7;
-    } else if (planet === "neptune") {
-      postId = 8;
-    }
-    navigate(`${planet}/${postId}`);
+  const handleClick = planetId => {
+
+    navigate(`/planet/${planetId}`)
   };
 
 
   return (
     <div className="planets-all">
-        <div className='single-planet' onClick={() => handleClick("mercury")}>
+        <div className='single-planet' onClick={() => handleClick(1)}>
         <Mercury />
       </div>
-      <div className='single-planet' onClick={() => handleClick("venus")}>
+      <div className='single-planet' onClick={() => handleClick(2)}>
         <Venus />
       </div>
-      <div className='single-planet' onClick={() => handleClick("earth")}>
+      <div className='single-planet' onClick={() => handleClick(3)}>
         <Earth />
       </div>
-      <div className='single-planet' onClick={() => handleClick("mars")}>
+      <div className='single-planet' onClick={() => handleClick(4)}>
         <Mars />
       </div>
-      <div className='single-planet' onClick={() => handleClick("jupiter")}>
+      <div className='single-planet' onClick={() => handleClick(5)}>
         <Jupiter />
       </div>
-      <div className='single-planet' onClick={() => handleClick("saturn")}>
+      <div className='single-planet' onClick={() => handleClick(6)}>
         <Saturn />
       </div>
-      <div className='single-planet' onClick={() => handleClick("uranus")}>
+      <div className='single-planet' onClick={() => handleClick(7)}>
         <Uranus />
       </div>
-      <div className='single-planet' onClick={() => handleClick("neptune")}>
+      <div className='single-planet' onClick={() => handleClick(8)}>
         <Neptune />
       </div>
     </div>

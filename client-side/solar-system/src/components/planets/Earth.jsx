@@ -1,7 +1,7 @@
 import React from 'react'
 // import PlanetCard from '../PlanetCard'
 // import planets from "../../../../../planets.json"
-import "./earth.css"
+import "./planets.css"
 import "../../App.css"
 
 function Earth() {
