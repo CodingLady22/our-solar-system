@@ -1,5 +1,5 @@
 import React from 'react'
-import "./saturn.css"
+import "./planets.css"
 import "../../App.css"
 
 function Saturn() {
