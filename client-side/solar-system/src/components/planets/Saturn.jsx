@@ -4,7 +4,7 @@ import "../../App.css"
 
 function Saturn() {
   return (
-    <div>Saturn
+    <div><h6>Saturn</h6>
         <div className='planet' id='saturn-container2'>
             <div id='saturn2'>
                 <div id='saturn-rings2'></div>
