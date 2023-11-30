@@ -5,7 +5,7 @@ import "../../App.css"
 function Mercury() {
   return (
     <div className='planet' id='mercury2'>
-        Mercury
+        <h6>Mercury</h6>
     </div>
   )
 }

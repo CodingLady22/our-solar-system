@@ -5,7 +5,7 @@ import "./planets.css"
 function Mars() {
   return (
     <div className='planet' id='mars2'>
-        Mars
+        <h6>Mars</h6>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import "./planets.css"
 function Uranus() {
   return (
     <div className='planet' id='uranus2'>
-        Uranus
+        <h6>Uranus</h6>
     </div>
   )
 }

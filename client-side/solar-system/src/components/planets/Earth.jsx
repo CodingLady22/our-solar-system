@@ -8,7 +8,7 @@ function Earth() {
 
   return (
     <div className='planet' id='earth2'>
-        Earth
+        <h6>Earth</h6>
     </div>
   )
 }
