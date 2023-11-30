@@ -3,16 +3,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* width: 100; */
+  width: 100%;
   padding: 2rem;
   gap: .5rem;
 }
 
-/* .planets-all {
-  display: flex;
+/* Tablest and Ipads */
+@media (min-width: 768px) and (max-width: 997px) {
+  
+  .planets-all {
+    flex-wrap: wrap;
+  }
+  
+}
+
+/* Mobiles */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.planets-all {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100;
-  padding: 2rem;
-} */
+}
+  
+}
