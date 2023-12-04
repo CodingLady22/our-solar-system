@@ -31,6 +31,13 @@ To get started with the "Our Solar System" back-end app, follow these steps:
    ```
    npm start
    ```
+4. Start the front-end server:
+   ```
+   cd into the client-side folder
+   ```
+   ```
+   npm run dev
+   ```
 ** You will need to create a .env file in the config folder to store your PORT and DB_STRING 
 
 The server will be running at http://localhost:5500.
