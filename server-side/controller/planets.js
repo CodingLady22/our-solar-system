@@ -1,5 +1,5 @@
-import Planets from "../models/Planet.js";
-import Moons from "../models/Moon.js";
+import Planets from "../../server-side/models/Planet.js";
+import Moons from "../../server-side/models/Moon.js";
 
 //* GET: getting the planet info
 const getPlanets = async (req, res) => {

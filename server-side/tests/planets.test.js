@@ -1,4 +1,4 @@
-import { getPlanets, getMoons } from "../controller/planets";
+import { getPlanets, getMoons } from "../../controller/planets";
 import Planet from "../models/Planet";
 import Moon from "../models/Moon";
 
