@@ -5,7 +5,7 @@ function PlanetImg(props) {
   return (
     <div>
         <div className="firstPlanetCard">
-          <img src={props.Img} alt="" width={"400px"} />
+          <img src={props.Img} alt="image of a planet" width={"400px"} />
         </div>
     </div>
   )

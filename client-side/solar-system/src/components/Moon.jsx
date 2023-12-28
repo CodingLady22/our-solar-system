@@ -1,11 +1,20 @@
 import React from 'react'
 
-function Moon(props) {
+function Moon({ moons }) {
   return (
-    <div className='moon' id='moonComponent'>
-        <h3>{props.name}</h3>
-        <small>{props.diameter}</small>
-        <p>{props.history}</p>
+    <div className='thirdPlanetCard' id='moonComponent'>
+        <h3>Moons:</h3>
+      <div className="moonSection">
+        <ul>
+          {moons.map((moon) => (
+            <div key={moon}>
+              <li><span className="subTitle">Name:</span> {moon.name}</li>
+              <li><span className="subTitle">Diameter:</span> {moon.diameter}</li>
+              <li><span className="subTitle">History:</span> {moon.history}</li>
+            </div>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
