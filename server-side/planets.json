@@ -1,9 +1,10 @@
 [
   {
     "name": "Mercury",
-    "size": 3032,
+    "size": 4879,
     "distanceFromSun": 28697,
     "facts": [
+      "Mercury is about 1/3 the size of Earth",
       "Mercury is the fastest planet in our solar system",
       "Mercury is the smallest planet in our solar system.",
       "Mercury has a crater named after Dr. Suess.",
@@ -16,9 +17,10 @@
   },
   {
     "name": "Venus",
-    "size": 7520,
+    "size": 12104,
     "distanceFromSun": 66841,
     "facts": [
+      "Venus is only slightly smaller than Earth",
       "A day on Venus is longer than a year.",
       "Venus is the hottest planet in our solar system.",
       "Venus is hotter than Mercury, despite being further away from the Sun.",
@@ -29,7 +31,7 @@
   },
   {
     "name": "Earth",
-    "size": 7917,
+    "size": 12756,
     "distanceFromSun": 92822,
     "facts": [
       "Earth is the third closest planet to The Sun.",
@@ -42,9 +44,10 @@
   },
   {
     "name": "Mars",
-    "size": 4212,
+    "size": 6792,
     "distanceFromSun": 155,
     "facts": [
+      "Mars is about half the size of Earth",
       "Mars is the fourth planet away from the sun.",
       "Mars is also known as the Red Planet, It may look warm but it's very cold.",
       "Mars is named after the Roman god of war.",
@@ -55,9 +58,10 @@
   },
   {
     "name": "Jupiter",
-    "size": 86881,
+    "size": 142984,
     "distanceFromSun": 461,
     "facts": [
+      "Jupiter is 11 times Earth's size",
       "Jupiter is the fifth planet away from The Sun.",
       "Jupiter has 80 moons, and is the biggest planet in our Solar System.",
       "Jupiter has the shortest day of all planets.",
@@ -68,9 +72,10 @@
   },
   {
     "name": "Saturn",
-    "size": 178272367,
+    "size": 120536,
     "distanceFromSun": 911,
     "facts": [
+      "Saturn is 9 times larger than Earth",
       "Saturn is the sixth planet away from the Sun.",
       "Saturn's volume is greater than 760 Earths, and it is the second most massive planet in the solar system.",
       "Saturn has huge rings,but thin.",
@@ -81,9 +86,10 @@
   },
   {
     "name": "Uranus",
-    "size": 31518,
+    "size": 51118,
     "distanceFromSun": 18265,
     "facts": [
+      "Uranus is 4 times Earth's size",
       "Uranus is the seventh planet away from the Sun.",
       "Uranus is the first planet to be discovered through a telescope.",
       "Uranus has 13 rings.",
@@ -94,9 +100,10 @@
   },
   {
     "name": "Neptune",
-    "size": 30559,
+    "size": 49528,
     "distanceFromSun": 27796,
     "facts": [
+      "Neptune is only slightly smaller than Uranus",
       "Neptune is the eighth planet away from the Sun.",
       "Neptune is about four times wider than Earth.",
       "Neptune is a ice giant Planet",
